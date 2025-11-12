@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  height: 2000px;
-}
-
 header {
   background-color: #669bbc;
   color: white;
@@ -17,7 +13,7 @@ header {
   top: 0;
   bottom: 0;
   height: 80px;
-  z-index: 1000; 
+  z-index: 1000;
 }
 
 main {
@@ -68,7 +64,7 @@ nav a:hover {
 
 .search {
   position: absolute;
-  top: 250px; 
+  top: 250px;
   left: 25%;
   background-color: rgba(255, 255, 255, 0.8);
   padding: 10px 20px;
@@ -95,7 +91,81 @@ nav a:hover {
   cursor: pointer;
 }
 
-section {
-  padding: 40px 20px;
-  width: 50%;
+section.contenitore {
+  width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  padding-top: 25px;
+  padding-left: 50px;
+  margin-bottom: 20px;
+}
+
+.griglia {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+
+.elemento {
+  text-align: center;
+}
+
+.elemento img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.elemento p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+footer {
+  margin-top: 80px;
+  background-color: #222;
+  color: #eee;
+  padding: 1.5rem 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content {
+  color: #eee;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: 500;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-content a {
+  color: #eee;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .griglia {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
+@media (max-width: 480px) {
+  .griglia {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
 }
