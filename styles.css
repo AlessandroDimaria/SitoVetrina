@@ -3,7 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fefae0;
+}
 header {
   background-color: #669bbc;
   color: white;
@@ -96,6 +99,7 @@ section.contenitore {
   margin: auto;
 }
 
+
 h2 {
   padding-top: 25px;
   padding-left: 50px;
@@ -114,7 +118,7 @@ h2 {
 
 .elemento img {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
   border-radius: 8px;
 }
@@ -167,5 +171,10 @@ footer {
   .griglia {
     grid-template-columns: 1fr;
     gap: 1rem;
+  }
+}
+@media (max-width: 480px) {
+  .griglia {
+    grid-template-columns: 1fr;
   }
 }
