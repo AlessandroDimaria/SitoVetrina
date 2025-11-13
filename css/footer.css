@@ -1,0 +1,30 @@
+footer {
+  margin-top: 80px;
+  background-color: #222;
+  color: #eee;
+  padding: 1.5rem 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content {
+  color: #eee;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: 500;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-content a {
+  color: #eee;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
