@@ -3,7 +3,7 @@
 CinemaCult è una pagina web dedicata agli appassionati di cinema e serie TV. Offre una selezione di titoli consigliati, collegamenti a liste IMDb, una barra di ricerca e un modulo di registrazione integrato nel footer.
 
 ## 📁 Struttura del progetto
-CinemaCult/
+```bash CinemaCult/
 ├── index.html
 ├── css/
 │   ├── styles.css          # File principale che importa gli altri CSS
@@ -19,7 +19,7 @@ CinemaCult/
 │   ├── donnie darko.jpg
 │   ├── shining.jpg
 │   └── trumanshow.jpg
-
+```
 ## 🌐 Funzionalità principali
 
 - **Header fisso** con logo e menu di navigazione.
