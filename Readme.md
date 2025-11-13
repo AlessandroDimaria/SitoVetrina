@@ -3,8 +3,23 @@
 CinemaCult è una pagina web dedicata agli appassionati di cinema e serie TV. Offre una selezione di titoli consigliati, collegamenti a liste IMDb, una barra di ricerca e un modulo di registrazione integrato nel footer.
 
 ## 📁 Struttura del progetto
-```CinemaCult/ ├── index.html ├── css/ │   ├── styles.css │   ├── header.css │   ├── main.css │   ├── footer.css │   └── responsive.css ├── img/ │   ├── pulp fiction.jpg │   ├── blade runner.jpg │   ├── il grande lebowski.jpg │   ├── un giorno di ordinaria follia.jpg │   ├── donnie darko.jpg │   ├── shining.jpg │   └── trumanshow.jpg
-```
+CinemaCult/
+├── index.html
+├── css/
+│   ├── styles.css          # File principale che importa gli altri CSS
+│   ├── header.css          # Stili per l'header e la navigazione
+│   ├── main.css            # Stili per il contenuto principale e la griglia
+│   ├── footer.css          # Stili per il footer e il form di registrazione
+│   └── responsive.css      # Media queries per layout mobile e tablet
+├── img/
+│   ├── pulp fiction.jpg
+│   ├── blade runner.jpg
+│   ├── il grande lebowski.jpg
+│   ├── un giorno di ordinaria follia.jpg
+│   ├── donnie darko.jpg
+│   ├── shining.jpg
+│   └── trumanshow.jpg
+
 ## 🌐 Funzionalità principali
 
 - **Header fisso** con logo e menu di navigazione.
@@ -30,9 +45,9 @@ CinemaCult è una pagina web dedicata agli appassionati di cinema e serie TV. Of
 ## 🚀 Avvio del progetto
 
 1. Clona o scarica il repository.
-2. Apri `index.html` in un browser moderno.
-3. Verifica che le immagini siano nella cartella `/img`.
-4. (Facoltativo) Collega il form a un backend per gestire la registrazione.
+```git bash
+   git clone https://github.com/AlessandroDimaria/SitoVetrina
+```
 
 ## 📷 Anteprima
 
